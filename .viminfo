@@ -1,0 +1,382 @@
+# 本 viminfo 檔案是由 Vim 6.3 所產生.
+# 如果想要自行修改請特別小心！
+
+# 'encoding' 在此檔建立時的值
+*encoding=utf-8
+
+
+# hlsearch on (H) or off (h):
+~H
+# Last Search Pattern:
+~MSle0~/homepage_title
+
+# 命令列 歷史記錄 (新到舊):
+:q!
+:wq!
+:w!
+:q
+:Q!
+:qw!
+:wq
+:q1
+:wq!:wq
+
+# 搜尋字串 歷史記錄 (新到舊):
+?/homepage_title
+?/ProcessSingleAdModule
+?/GetAdGeneralDataByModuleName
+?/catalog_template_js_and_css_version
+?/ws_catalog_host
+?/ws_catalog_url
+?/home/y/bin/php /home/y/bin/order_monitor_batch.php CheckConvPickDelivAddr >> /home/y/logs/yphp_ymp_order_monitor_cron/log-`date +%Y%m%d`.log 2>&1
+?/monday.pagecache.mysql.password
+?/get_clients
+?/getAllZoneNoBrandv7
+?/get_bankact
+?/customYca
+?/price
+
+# 運算式 歷史記錄 (新到舊):
+
+# 輸入行 歷史記錄 (新到舊):
+
+# 輸入行 歷史記錄 (新到舊):
+
+# 暫存器:
+""0	CHAR	0
+	Version 0.0.16
+	* add convpick delivaddr monitor
+	
+"1	LINE	0
+	file = /tmp/autobench.tGDBooth_heavy.result.pp
+"2	CHAR	0
+	
+	"http://ytsch2.shp.tw1.yahoo.com:4080/Webservice/GetGdData?gdid=3343032"
+"3	CHAR	0
+	low_rate  = 10
+	high_rate = 100
+	rate_step = 10
+	const_test_time = 180
+	num_call = 1
+	timeout = 3
+	output_fmt = tsv
+"4	CHAR	0
+	<beans>
+	
+		<!--  EXAMPLE CONFIG
+			DO NOT ADD xmlns to the broker elements, it will break.
+		 -->
+		<!--
+			The <broker> element is used to configure the ActiveMQ broker.
+		-->
+		<broker
+			brokerName="defaultBroker" dataDirectory="${activemq.base}/data"
+			useJmx="true" start="true" persistent="true" useShutdownHook="false"
+			deleteAllMessagesOnStartup="true">    
+	
+			<!--
+				Configure message persistence for the broker. The default persistence
+				mechanism is the KahaDB store (identified by the kahaDB tag). For
+				more information, see: http://activemq.apache.org/persistence.html
+			-->
+	
+			<persistenceAdapter>
+				<kahaDB directory="${activemq.base}/data/kahadb" />
+			</persistenceAdapter>
+	
+			
+			<transportConnectors>
+				<transportConnector name="openwire" uri="tcp://0.0.0.0:61616" />
+			</transportConnectors>
+			<!--
+			<transportConnectors>
+	      <transportConnector name="yca_stomp" uri="stomp://0.0.0.0:61613" />
+			</transportConnectors>
+			-->
+				</broker>
+	</beans>
+"5	CHAR	0
+	<beans>
+	
+		<!--  EXAMPLE CONFIG
+			DO NOT ADD xmlns to the broker elements, it will break.
+		 -->
+		<!--
+			The <broker> element is used to configure the ActiveMQ broker.
+		-->
+		<broker
+			brokerName="defaultBroker" dataDirectory="${activemq.base}/data"
+			useJmx="true" start="true" persistent="true" useShutdownHook="false"
+			deleteAllMessagesOnStartup="true">    
+	
+			<!--
+				Configure message persistence for the broker. The default persistence
+				mechanism is the KahaDB store (identified by the kahaDB tag). For
+				more information, see: http://activemq.apache.org/persistence.html
+			-->
+	
+			<persistenceAdapter>
+				<kahaDB directory="${activemq.base}/data/kahadb" />
+			</persistenceAdapter>
+	
+			
+			<transportConnectors>
+				<transportConnector name="openwire" uri="tcp://0.0.0.0:61616" />
+			</transportConnectors>
+			<!--
+			<transportConnectors>
+	      <transportConnector name="yca_stomp" uri="stomp://0.0.0.0:61613" />
+			</transportConnectors>
+			-->
+		</broker>
+	</beans>
+	
+"6	LINE	0
+	
+"7	LINE	0
+	   * add check usr select paytype is valid
+"8	LINE	0
+	* [Fix 1]
+"9	CHAR	0
+	echo "fffffff \r\n";
+	  $str = "cfd392f1f67696e3d4c0547de27c5982XXX";
+		echo $str . "\r\n";
+	
+		echo str_replace("d4c0547de27c5982", "", $str);
+	
+"-	CHAR	0
+	421
+<d2.shp.corp.tw1.yahoo.com,10.82.41.73 ssh-rsa AAAAB3NzaC1yc2EAAAABIwAAAQEAz6RkdtUY3Zo2smOopndlpwjx9S+lgZL9ERNwA2tJtPVVdEFdw08A4k3fGG8X5BmZO7gYjLE2gtjSCWqXB5AOI2JSZhX8EXp+UfkXRVTb6PCUAiuilMGoC2sCRU85zeGrP0oybR6tk/NVZxthyYdW+E049monD0R8oSfJRDqwbhAXxzqRDY7ji5Ub7kSGj+MksHa1sIjYc356oBKX2tpKRb1Wl0vZsoyQyopHPEzxV0ntbsI+fxChI8O5R0W42IxhZw9ucffqS+us4Ot5eQY/+uEJby636Ngn7X1k9b6gZVbj7Q4gK7gB4QPN0ZEeEfxygdXh/mHJ+SAsrSZ4O+6QsQ==
+
+# 檔案標記:
+'0  101  0  /home/y/conf/ymp/moon_php.ini
+'1  1  0  /home/y/var/yroots/bipo_dev/home/y/share/htdocs/monday_template/catalog/ymp_catalog.inc
+'2  126  0  /home/y/conf/ymp/moon_php.ini
+'3  76  89  /home/y/share/htdocs/monday_template/lib/generic/getDataFromWS.inc
+'4  75  89  /home/y/share/htdocs/monday_template/lib/generic/getDataFromWS.inc
+'5  224  33  /home/y/share/htdocs/monday_template/catalog/ymp_catalog.inc
+'6  309  0  /home/y/share/htdocs/monday_template/lib/catalog/ymp_catalog_base.inc
+'7  37  0  /home/y/conf/ymp/moon_php.ini
+'8  21  0  /home/y/share/htdocs/monday_template/lib/generic/ymp_template_utility.inc
+'9  25  0  /home/y/share/htdocs/monday_template/lib/generic/ymp_template_utility.inc
+
+# Jumplist (由新到舊):
+-'  101  0  /home/y/conf/ymp/moon_php.ini
+-'  126  0  /home/y/conf/ymp/moon_php.ini
+-'  1  0  /home/y/var/yroots/bipo_dev/home/y/share/htdocs/monday_template/catalog/ymp_catalog.inc
+-'  107  0  /home/y/conf/ymp/moon_php.ini
+-'  137  0  /home/y/conf/ymp/moon_php.ini
+-'  113  0  /home/y/conf/ymp/moon_php.ini
+-'  89  0  /home/y/conf/ymp/moon_php.ini
+-'  4  0  /home/y/conf/ymp/moon_php.ini
+-'  76  89  /home/y/share/htdocs/monday_template/lib/generic/getDataFromWS.inc
+-'  53  4  /home/y/share/htdocs/monday_template/lib/generic/getDataFromWS.inc
+-'  75  4  /home/y/share/htdocs/monday_template/lib/generic/getDataFromWS.inc
+-'  1  0  /home/y/share/htdocs/monday_template/lib/generic/getDataFromWS.inc
+-'  224  33  /home/y/share/htdocs/monday_template/catalog/ymp_catalog.inc
+-'  1  0  /home/y/share/htdocs/monday_template/catalog/ymp_catalog.inc
+-'  309  0  /home/y/share/htdocs/monday_template/lib/catalog/ymp_catalog_base.inc
+-'  164  28  /home/y/share/htdocs/monday_template/lib/catalog/ymp_catalog_base.inc
+-'  1  0  /home/y/share/htdocs/monday_template/lib/catalog/ymp_catalog_base.inc
+-'  37  0  /home/y/conf/ymp/moon_php.ini
+-'  15  0  /home/y/conf/ymp/moon_php.ini
+-'  21  0  /home/y/share/htdocs/monday_template/lib/generic/ymp_template_utility.inc
+-'  25  2  /home/y/share/htdocs/monday_template/lib/generic/ymp_template_utility.inc
+-'  1  0  /home/y/share/htdocs/monday_template/lib/generic/ymp_template_utility.inc
+-'  58  1  /home/y/share/htdocs/html_templates/eacf331f0ffc35d4b482f1d15a887d3b.php
+-'  1  0  /home/y/share/htdocs/html_templates/eacf331f0ffc35d4b482f1d15a887d3b.php
+-'  1  16  ~/svn-commit.3.tmp
+-'  1  11  ~/svn-commit.2.tmp
+-'  1  11  ~/svn-commit.tmp
+-'  14  37  /home/y/conf/ymp/moon_php.ini
+-'  13  37  /home/y/conf/ymp/moon_php.ini
+-'  12  38  /home/y/conf/ymp/moon_php.ini
+-'  7  37  /home/y/conf/ymp/moon_php.ini
+-'  16  0  /home/y/conf/ymp/moon_php.ini
+-'  1  0  /home/y/conf/ymp/moon_php.ini
+-'  69  0  /home/y/conf/ymp/ymp_db_conf.ini
+-'  1  7  ~/2012_02_release_02/lib_php/hook_libs/svn-commit.tmp
+-'  2  10  ~/2012_02_release_02/lib_php/hook_libs/appHandler/Order_Paytype.inc
+-'  1  0  ~/2012_02_release_02/lib_php/hook_libs/appHandler/Order_Paytype.inc
+-'  57  0  /home/y/conf/ymp/ymp_db_conf.ini
+-'  68  0  /home/y/conf/ymp/ymp_db_conf.ini
+-'  64  0  /home/y/conf/ymp/ymp_db_conf.ini
+-'  1  0  /home/y/conf/yapache/yapache.conf
+-'  1  3  ~/2012_03_release_01/batch/svn-commit.tmp
+-'  5  24  ~/2012_03_release_01/batch/order_monitor/pkg/README.yphp_ymp_order_monitor_cron
+-'  1  0  ~/2012_03_release_01/batch/order_monitor/pkg/README.yphp_ymp_order_monitor_cron
+-'  2  145  ~/2012_03_release_01/batch/order_monitor/scripts/order_monitor_convpick_cron.sh
+-'  1  0  ~/2012_03_release_01/batch/order_monitor/scripts/order_monitor_convpick_cron.sh
+-'  2  145  ~/2012_02_release_02/batch/order_monitor/scripts/order_monitor_convpick_cron.sh
+-'  1  0  ~/2012_02_release_02/batch/order_monitor/scripts/order_monitor_convpick_cron.sh
+-'  1  0  ~/2012_02_release_02/batch/order_monitor/scripts/order_monitor_ordercount_cron.sh
+-'  41  10  ~/2012_03_release_01/batch/order_monitor/pkg/yphp_ymp_order_monitor_cron.yicf
+-'  42  0  ~/2012_03_release_01/batch/order_monitor/pkg/yphp_ymp_order_monitor_cron.yicf
+-'  408  8  ~/2012_03_release_01/batch/order_monitor/scripts/order_monitor_batch.php
+-'  1  0  ~/2012_03_release_01/batch/order_monitor/scripts/order_monitor_batch.php
+-'  1  0  ~/2012_03_release_01/batch/order_monitor/pkg/yphp_ymp_order_monitor_cron.yicf
+-'  33  247  ~/.ssh/known_hosts
+-'  1  0  ~/.ssh/known_hosts
+-'  70  0  /home/y/conf/ymp/ymp_db_conf.ini
+-'  19  27  /home/y/conf/yapache/include/monday_catalog_virtualHost.conf
+-'  1  0  /home/y/conf/yapache/include/monday_catalog_virtualHost.conf
+-'  53  0  /home/y/conf/yapache/monday_include/monday_80/monday_catalog_rewrite.conf
+-'  1  0  /home/y/conf/yapache/monday_include/monday_80/monday_catalog_rewrite.conf
+-'  5  21  /home/y/conf/keydb/monday.catalog.keydb
+-'  1  0  /home/y/conf/keydb/monday.catalog.keydb
+-'  77  0  /home/y/conf/ymp/ymp_db_conf.ini
+-'  1  0  /home/y/conf/ymp/ymp_db_conf.ini
+-'  1  0  /home/y/conf/yapache/yapache
+-'  4  0  ~/.autobench.conf
+-'  7  0  ~/.autobench.conf
+-'  2  36  ~/.autobench.conf.PServer_PP_Net4
+-'  1  0  ~/.autobench.conf.PServer_PP_Net4
+-'  2  36  ~/.autobench.conf.PServer_PP_Net2
+-'  1  0  ~/.autobench.conf.PServer_PP_Net2
+-'  6  6  ~/.autobench.conf.PServer_PP
+-'  4  6  ~/.autobench.conf.PServer_PP
+-'  2  0  ~/.autobench.conf.PServer_PP
+-'  1  0  ~/.autobench.conf.PServer_PP
+-'  1  0  /tmp/autobench.GDBooth_heavy.result.pp
+-'  1  0  ~/autobench.GDBooth_heavy.result.pp
+-'  5  0  ~/.autobench.conf
+-'  4  0  ~/.autobench.conf.WS_Light
+-'  4  0  ~/.autobench.conf.W_heavy
+-'  6  0  ~/.autobench.conf.W_light
+-'  2  0  ~/.autobench.conf.W_light
+-'  3  0  ~/.autobench.conf.WS_heavy
+-'  1  0  ~/.autobench.conf.W_heavy
+-'  1  0  ~/.autobench.conf.W_light
+-'  2  0  ~/.autobench.conf.WS_heavy
+-'  1  0  ~/.autobench.conf.WS_Light
+-'  1  0  ~/.autobench.conf.WS_heavy
+-'  2  37  ~/.autobench.conf.WS
+-'  1  0  ~/.autobench.conf.WS
+-'  3  0  ~/.autobench.conf
+-'  1  0  /.autobench.conf
+-'  2  0  /tmp/autobench.PPW1.result.pp
+-'  1  0  /tmp/autobench.PPW1.result.pp
+-'  2  0  ~/.autobench.conf
+-'  1  0  /tmp/autobench.result.GdData.pp
+-'  4  0  /tmp/autobench.result.GdData.pp
+-'  6  0  ~/.autobench.conf
+
+# 檔案內 Mark 記錄 (由新到舊):
+
+> /home/y/conf/ymp/moon_php.ini
+	"	101	0
+
+> /home/y/var/yroots/bipo_dev/home/y/share/htdocs/html_templates/index_404.html
+	"	1	0
+
+> /home/y/var/yroots/bipo_dev/home/y/share/htdocs/monday_template/catalog/ymp_catalog.inc
+	"	1	0
+
+> /home/y/share/htdocs/monday_template/lib/generic/getDataFromWS.inc
+	"	76	89
+	^	76	90
+	.	76	89
+	+	75	89
+	+	76	89
+
+> /home/y/share/htdocs/monday_template/catalog/ymp_catalog.inc
+	"	224	33
+	^	224	34
+	.	224	33
+	+	224	33
+
+> /home/y/share/htdocs/monday_template/lib/catalog/ymp_catalog_base.inc
+	"	309	0
+	^	309	0
+	.	309	0
+	+	156	40
+	+	153	43
+	+	159	74
+	+	162	8
+	+	160	42
+	+	307	35
+	+	309	0
+
+> /home/y/share/htdocs/monday_template/lib/generic/ymp_template_utility.inc
+	"	21	0
+	^	21	0
+	.	21	0
+	+	22	44
+	+	23	49
+	+	21	0
+
+> /home/y/share/htdocs/html_templates/eacf331f0ffc35d4b482f1d15a887d3b.php
+	"	58	1
+
+> ~/svn-commit.3.tmp
+	"	1	16
+	^	1	17
+	.	1	16
+	+	1	16
+
+> ~/svn-commit.2.tmp
+	"	1	11
+	^	1	12
+	.	1	11
+	+	1	11
+
+> ~/svn-commit.tmp
+	"	1	11
+	^	1	12
+	.	1	11
+	+	1	11
+	o	1	0
+
+> /home/y/conf/ymp/ymp_db_conf.ini
+	"	69	0
+	^	64	12
+	.	64	11
+	+	52	14
+	+	62	14
+	+	54	11
+	+	64	11
+
+> /home/y/etc/yfor/ymp_catalog.yfor.conf
+	"	4	3
+
+> ~/2012_02_release_02/lib_php/hook_libs/svn-commit.tmp
+	"	1	7
+	^	1	8
+	.	1	7
+	+	1	7
+
+> ~/2012_02_release_02/lib_php/hook_libs/appHandler/Order_Paytype.inc
+	"	2	10
+	^	2	11
+	.	2	10
+	+	2	10
+
+> /home/y/conf/yapache/yapache.conf
+	"	1	0
+
+> ~/2012_03_release_01/batch/svn-commit.tmp
+	"	1	3
+	^	1	4
+	.	1	3
+	+	1	3
+
+> ~/2012_03_release_01/batch/order_monitor/pkg/README.yphp_ymp_order_monitor_cron
+	"	5	24
+	^	5	25
+	.	5	24
+	+	4	0
+	+	7	0
+	+	4	13
+	+	5	24
+
+> ~/2012_03_release_01/batch/order_monitor/scripts/order_monitor_convpick_cron.sh
+	"	2	145
+	^	2	146
+	.	2	145
+	+	2	145
+
+> ~/2012_02_release_02/batch/order_monitor/scripts/order_monitor_convpick_cron.sh
+	"	2	145
+	^	2	146
+	.	2	145
+	+	2	145
